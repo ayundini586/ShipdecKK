@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription - ShipDecKK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="navbar">
+            <a href="./index.html" class="logo">
+                <img src="../foto/shipdeckk-logo.png" alt="ShipDecKK Logo" class="logo-img">
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./subscription.html" class="active">Subscription</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-head">
+            <h1>Subscription</h1>
+            <p>Sign in or create an account to follow new listings.</p>
+        </section>
+
+        <section class="auth-container">
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="signin">Sign In</button>
+                <button class="auth-tab" data-tab="signup">Sign Up</button>
+            </div>
+
+            <div class="auth-wrapper active" id="signin-form">
+                <form id="auth-form" class="auth-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter your username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="auth-button">Login</button>
+                    <div class="auth-options">
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="auth-wrapper" id="signup-form">
+                <form id="auth-form-signup" class="auth-form">
+                    <div class="form-group">
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="username-signup">Username</label>
+                        <input type="text" id="username-signup" placeholder="Choose a username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-signup">Password</label>
+                        <input type="password" id="password-signup" placeholder="Create a password">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" placeholder="Enter your age">
+                    </div>
+                    <button type="submit" class="auth-button">Create account</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@shipdeckk.com</p>
+                <p>Phone: 123-4567-8900</p>
+                <p>Address: Jl Jalur Sutera</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./subscription.html">Subscription</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 ShipDecKK. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
