@@ -1,12 +1,18 @@
-# ShipDecKK
+## ShipDecKK
+
+**Responsive Maritime Company Profile Website**
 
 ShipDecKK is an individual responsive multi-page company profile website for a fictional maritime vessel dealer, developed using HTML, CSS, and JavaScript.
 
-This project was created as one of the major assignments for the Human-Computer Interaction course during my second semester. It was developed independently as part of my academic work.
+This project was created as one of the major assignments for the Human-Computer Interaction course during my second semester and was developed independently.
 
 ## Live Demo
 
 [Visit ShipDecKK Live Website](https://ayundini586.github.io/ShipdecKK/)
+
+## Preview
+
+![ShipDecKK Preview](preview.png)
 
 ## Features
 
